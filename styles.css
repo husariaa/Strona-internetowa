@@ -1,0 +1,406 @@
+body {
+    color:rgb(16, 16, 16);
+    font-family: 'DM Serif Display', serif;
+    background-color: rgb(219, 225, 230);
+}
+
+.header {
+    background: url(https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-1.1.0&rect=0%2C292%2C3008%2C1504&q=45&auto=format&w=1356&h=668&fit=crop);
+    opacity: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px 70px 10px;
+}
+
+.menu {
+    color: white;
+    text-align: right;
+    font-size: 10px;
+    display: inline;
+    float: right;
+}
+
+.logo {
+    display: inline;
+}
+
+.nav {
+    display: inline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.menu-item {
+    height: auto;
+    display: inline;
+}
+
+.menu-link{
+    font-size: 15px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    border: 2px solid black;
+    background-color: white;
+    opacity: 50%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.menu-link:hover {
+    opacity: 90%;
+}
+
+.header-heading {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header-text {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.about-image-wrapper {
+    width: 100%;
+}
+  
+.about-image {
+    width: 100%;
+    border-radius: 10px;
+}
+  
+.about-content {
+    width: 50%;
+ }
+
+.about-heading {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(16, 16, 16);
+}
+
+.link {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: white;
+    opacity: 50%;
+    transition: 500ms;
+}
+
+.link:hover {
+    opacity: 90%;
+}
+
+.about-text {
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(16, 16, 16);
+}
+
+.hobby-section{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hobby-heading {
+    text-align: center;
+}
+
+.hobby-pictures {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-item {
+    text-align: center;
+    width: 20%;
+}
+
+.hobby-picture {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.images-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.images-heading {
+    font-size: 40px;
+}
+
+.images-container {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+.image-wrapper {
+    width: 30%;
+    margin: 0;
+}
+  
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.quote-section {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-text {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+.quote-author {
+    text-align: right;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.contact-section {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10%;
+}
+
+.contact-heading {
+    font-size: 30px;
+}
+
+.form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.label {
+    font-size: 15px;
+}
+
+.input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-area {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-button {
+    color: white;
+    background-color: black;
+}
+
+.form-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    opacity: 75%;
+    background-image: url(https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-1.1.0&rect=0%2C292%2C3008%2C1504&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+    padding-bottom: 1px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.social-links {
+    font-size: 12px;
+    text-align: right;
+    list-style: none;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* RWD */
+@media (max-width: 800px) {
+    .about-section {
+      flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .about-image-wrapper {
+      width: 100%;
+    }
+  
+    .about-content {
+      width: 100%;
+    }
+  
+    .hobby-section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .hobby-pictures {
+      flex-direction: column;
+    }
+  
+    .hobby-item {
+      width: 100%;
+    }
+  
+    .images-section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .images-container {
+      flex-direction: column;
+    }
+  
+    .image-wrapper {
+      width: 100%;
+    }
+  
+    .quote {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .form {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .footer {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .navbar {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .nav {
+      display: none;
+    }
+  }
+
+
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-mobile .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-button {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    border: transparent;
+    color: white;
+  }
+  
+  .menu-button-open {
+    color: #fff;
+  }
+  
+  @media (min-width: 800px) {
+    .menu-button {
+      display: none;
+    }
+  }
